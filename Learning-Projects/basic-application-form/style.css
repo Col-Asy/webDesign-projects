@@ -1,0 +1,137 @@
+.header-section{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.header-section-table{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+.cb-logo,
+.header-section-heading,
+.enquiry-info{
+    width: 30%;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.cb-logo-img img{
+    width: 70%;
+}
+
+.header-section-heading,
+.enquiry-info{
+    font-size: 30px;
+}
+.header-section-heading{
+    text-decoration: underline;
+}
+
+.enquiry-checkbox input,
+.enquiry-enrolled input{
+    height: 20px;
+    width: 20px;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+    .input-details{
+        width: 100%;
+        height: 100%;
+
+        .row{
+            width: 100%;
+            display: flex;
+            margin-top: 1.5rem;
+
+            .cell{
+                width: 50%;
+
+                label{
+                    width: 30%;
+                }
+
+                input{
+                    width: 60%;
+                    border: none;
+                    border-bottom: 1px solid black;
+                }
+            }
+        }
+    }
+
+    .course-checkbox{
+        width: 100%;
+        height: 100%;
+        margin-top: 5rem;
+
+        .checkbox-options{
+            .row{
+                display: flex;
+                margin-top: .5rem;
+                width: 100%;
+
+                .cell{
+                    width: 100%;
+                    margin-top: .5rem;
+                    margin-left: .5rem;
+                }
+            }
+        }
+    }
+
+    .special-questions{
+        width: 100%;
+        height: 100%;
+        margin-top: 5rem;
+
+        .question{
+            margin-top: 1rem;
+
+            .checkbox-options{
+                display: flex;
+                margin-top: .5rem;
+                width: 100%;
+                .cell{
+                    width: 100%;
+                    margin-left: .5rem;
+                }
+            }
+        }
+
+        .question-write{
+            margin-top: 1rem;
+
+            .heading-question{
+                display: flex;
+
+                label{
+                    width: 30%;
+                }
+    
+                input{
+                    width: 60%;
+                    margin-left: .2rem;
+                    border: none;
+                    border-bottom: 1px solid black;
+                }
+            }
+        }
+
+        .submisison-details{
+            margin-top: 2rem;
+
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+
+                .cell{
+                    width: 25%;
+                }
+            }
+        }
+    }
+}
